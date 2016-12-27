@@ -12,12 +12,12 @@ public class RestCallInstanceTest {
     public void postCallTest() {
         Person person = new Person();
         RestCallInstance<Person, Person> restCall = new RestCallInstance<>(new RestTemplate());
-        ResponseMessage responseMessage = restCall.withUrl("Some url")
-                .withHttpMethod(HttpMethod.POST)
-                .withData(person)
-                .post();
-
-        responseMessage.getData();
+//        ResponseMessage responseMessage = restCall.withUrl("Some url")
+//                .withHttpMethod(HttpMethod.POST)
+//                .withData(person)
+//                .post();
+//
+//        responseMessage.getData();
 
     }
 }
