@@ -13,7 +13,7 @@ rest client using Spring Rest template
 ** Docker instance
 
 * CI/CD
-** Travis
+** Travis 
 ** Build
 ** Deploy to somewhere ?? some repo?
 ** Run tests

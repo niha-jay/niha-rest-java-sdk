@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @Getter @Setter
 public class ResponseMessage<D> {
-    private static final org.slf4j.Logger LOG = LoggerFactory.getLogger(RestCallInstance.class);
+    private static final org.slf4j.Logger LOG = LoggerFactory.getLogger(RestCall.class);
 
     private String message;
     private int code;
